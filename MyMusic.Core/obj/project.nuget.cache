@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ByclXb05q0Qqnbo2cwk9P8ygVXJ/2ZP71u9fyxoZIXf++TTOSW5EXrtkH+TAVN+2VTk32XZRvhXcnF8TzZ07iQ==",
+  "success": true,
+  "projectFilePath": "/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/MyMusic.Core.csproj",
+  "expectedPackageFiles": [
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
