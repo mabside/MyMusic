@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MyMusic.Core;
+using MyMusic.Data;
 
 namespace MyMusic.Api
 {
@@ -25,6 +27,8 @@ namespace MyMusic.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IUnitOfWork , UnitOfWork>();
+
             services.AddControllers();
         }
 

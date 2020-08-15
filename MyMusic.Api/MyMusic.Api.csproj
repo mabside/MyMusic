@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MyMusic.Core\MyMusic.Core.csproj" />
     <ProjectReference Include="..\MyMusic.Services\MyMusic.Services.csproj" />
+    <ProjectReference Include="..\MyMusic.Data\MyMusic.Data.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
