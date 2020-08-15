@@ -1,0 +1,9 @@
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/bin/Debug/netstandard2.0/MyMusic.Core.deps.json
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/bin/Debug/netstandard2.0/MyMusic.Core.dll
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/bin/Debug/netstandard2.0/MyMusic.Core.pdb
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/obj/Debug/netstandard2.0/MyMusic.Core.csprojAssemblyReference.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/obj/Debug/netstandard2.0/MyMusic.Core.AssemblyInfoInputs.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/obj/Debug/netstandard2.0/MyMusic.Core.AssemblyInfo.cs
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/obj/Debug/netstandard2.0/MyMusic.Core.csproj.CoreCompileInputs.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/obj/Debug/netstandard2.0/MyMusic.Core.dll
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/obj/Debug/netstandard2.0/MyMusic.Core.pdb

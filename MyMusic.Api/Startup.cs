@@ -1,17 +1,13 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using MyMusic.Core;
 using MyMusic.Data;
+
 
 namespace MyMusic.Api
 {
@@ -27,9 +23,24 @@ namespace MyMusic.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IUnitOfWork , UnitOfWork>();
 
             services.AddControllers();
+
+            if (Configuration["Provider"] == "SQLite")
+            {
+                services.AddDbContext<MyMusicDbContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("SQLite"), x => x.MigrationsAssembly("MyMusic.Data")));
+            }
+            else if (Configuration["Provider"] == "MySQL")
+            {
+                services.AddDbContext<MyMusicDbContext>(options =>
+                    options.UseMySQL(Configuration.GetConnectionString("MySQL"), x => x.MigrationsAssembly("MyMusic.Data")));
+            }else{
+                throw new ArgumentException("Not a valid database type");
+            }
+
+            services.AddScoped<IUnitOfWork , UnitOfWork>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
