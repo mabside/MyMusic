@@ -4,7 +4,7 @@ using MyMusic.Core.Repositories;
 
 namespace MyMusic.Core
 {
-    public interface IUnitWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         IMusicRepository Musics {get;}
         IArtistRepository Artists {get;}
