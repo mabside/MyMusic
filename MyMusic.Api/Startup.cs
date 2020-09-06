@@ -6,8 +6,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MyMusic.Core;
+using MyMusic.Core.Services;
 using MyMusic.Data;
-
+using MyMusic.Services;
 
 namespace MyMusic.Api
 {
@@ -40,7 +41,8 @@ namespace MyMusic.Api
             }
 
             services.AddScoped<IUnitOfWork , UnitOfWork>();
-
+            services.AddTransient<IMusicService, MusicService>();
+            services.AddTransient<IArtistService, ArtistService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
