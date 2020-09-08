@@ -1,0 +1,12 @@
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/bin/Debug/netcoreapp3.0/MyMusic.Services.deps.json
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/bin/Debug/netcoreapp3.0/MyMusic.Services.dll
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/bin/Debug/netcoreapp3.0/MyMusic.Services.pdb
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/bin/Debug/netcoreapp3.0/MyMusic.Core.dll
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/bin/Debug/netcoreapp3.0/MyMusic.Core.pdb
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/obj/Debug/netcoreapp3.0/MyMusic.Services.csprojAssemblyReference.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/obj/Debug/netcoreapp3.0/MyMusic.Services.AssemblyInfoInputs.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/obj/Debug/netcoreapp3.0/MyMusic.Services.AssemblyInfo.cs
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/obj/Debug/netcoreapp3.0/MyMusic.Services.csproj.CoreCompileInputs.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/obj/Debug/netcoreapp3.0/MyMusic.Services.csproj.CopyComplete
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/obj/Debug/netcoreapp3.0/MyMusic.Services.dll
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/obj/Debug/netcoreapp3.0/MyMusic.Services.pdb

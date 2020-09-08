@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "al5yYftdZvV6L+F0i07KrEzN+VM5x6KF1uiJrzqSCG+AvGNqPZ31Oqzpv9ibEQg+PvlfBkg2sqSAZaWnfL5GXA==",
+  "dgSpecHash": "RTqPF8ik8Wc4oCC3Dyw+vDtaYTO5Re3/juMQbhpnp9qIT1IJ1SjXhp1+kYi9OaP7C0Ub5iftzaGSFrzLuqqayQ==",
   "success": true,
   "projectFilePath": "/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Services/MyMusic.Services.csproj",
   "expectedPackageFiles": [
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "/Users/adenlemubaraq/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "/Users/adenlemubaraq/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
   ],
   "logs": []
 }

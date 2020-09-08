@@ -5,6 +5,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -14,7 +15,8 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <TargetFramework>netstandard3.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <!-- <TargetFramework>netstandard3.1</TargetFramework> -->
   </PropertyGroup>
 
 </Project>

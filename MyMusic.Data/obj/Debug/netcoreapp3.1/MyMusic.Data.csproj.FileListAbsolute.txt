@@ -1,0 +1,15 @@
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/bin/Debug/netcoreapp3.1/MyMusic.Data.deps.json
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/bin/Debug/netcoreapp3.1/MyMusic.Data.runtimeconfig.json
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/bin/Debug/netcoreapp3.1/MyMusic.Data.runtimeconfig.dev.json
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/bin/Debug/netcoreapp3.1/MyMusic.Data.dll
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/bin/Debug/netcoreapp3.1/MyMusic.Data.pdb
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/bin/Debug/netcoreapp3.1/MyMusic.Core.dll
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/bin/Debug/netcoreapp3.1/MyMusic.Core.pdb
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/obj/Debug/netcoreapp3.1/MyMusic.Data.csprojAssemblyReference.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/obj/Debug/netcoreapp3.1/MyMusic.Data.AssemblyInfoInputs.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/obj/Debug/netcoreapp3.1/MyMusic.Data.AssemblyInfo.cs
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/obj/Debug/netcoreapp3.1/MyMusic.Data.csproj.CoreCompileInputs.cache
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/obj/Debug/netcoreapp3.1/MyMusic.Data.csproj.CopyComplete
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/obj/Debug/netcoreapp3.1/MyMusic.Data.dll
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/obj/Debug/netcoreapp3.1/MyMusic.Data.pdb
+/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Data/obj/Debug/netcoreapp3.1/MyMusic.Data.genruntimeconfig.cache
