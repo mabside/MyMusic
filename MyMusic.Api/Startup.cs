@@ -2,12 +2,14 @@ using System;
 using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MyMusic.Core;
+using MyMusic.Core.Models;
 using MyMusic.Core.Services;
 using MyMusic.Data;
 using MyMusic.Services;
@@ -47,7 +49,18 @@ namespace MyMusic.Api
             services.AddTransient<IMusicService, MusicService>();
             services.AddTransient<IArtistService, ArtistService>();
 
-// Registering Swagger generator
+            // adding identity to dbContext
+            services.AddIdentity<User,Role>(options => 
+            {
+                options.Password.RequiredLength = 8;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequireUppercase = true;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1d);
+            })
+            .AddEntityFrameworkStores<MyMusicDbContext>()
+            .AddDefaultTokenProviders();
+
+            // Registering Swagger generator
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo{Title="MY API", Version="v1"});
             });

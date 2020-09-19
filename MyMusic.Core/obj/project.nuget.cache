@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "30LgCeFWFAbeFygVc0V4f5fynPvXLltPnYs2I0Cq4L5u6kbNuGz/BN2sFaK5nk2y1ii3K9t/PfaKFJxMXyO0Yw==",
+  "dgSpecHash": "EiXDpIybdYF6Ll945TXFgjvqoSCh426oXtsHgDk2RMKSuJus6jeKtfOAyhZMOrUaF4cBg1aZR/pXS1ArMPRKZw==",
   "success": true,
   "projectFilePath": "/Users/adenlemubaraq/Documents/MyMusic/MyMusic.Core/MyMusic.Core.csproj",
   "expectedPackageFiles": [
@@ -21,8 +21,8 @@
     "/Users/adenlemubaraq/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/Users/adenlemubaraq/.nuget/packages/system.memory/4.5.2/system.memory.4.5.2.nupkg.sha512",
     "/Users/adenlemubaraq/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
-    "/Users/adenlemubaraq/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "/Users/adenlemubaraq/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+    "/Users/adenlemubaraq/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "/Users/adenlemubaraq/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
   ],
   "logs": []
 }

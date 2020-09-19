@@ -18,6 +18,7 @@ namespace MyMusic.Services
         public async Task<Artist> CreateArtisit(Artist newArtist)
         {
             await _unitOfWork.Artists.AddAsync(newArtist);
+            await _unitOfWork.CommitAsync();                    
             return newArtist;
         }
 

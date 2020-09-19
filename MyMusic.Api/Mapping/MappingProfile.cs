@@ -18,6 +18,7 @@ namespace MyMusic.Api.Mapping
             CreateMap<ArtistResource, Artist>();
             CreateMap<SaveMusicResource, Music>();
             CreateMap<SaveArtistResource, Artist>();
+            CreateMap<UserSignUpResource, User>().ForMember(u => u.UserName, opt => opt.MapFrom(ur => ur.Email));
         }
     }
 }
